@@ -14,9 +14,10 @@ public class Usuario {
     public Usuario() {
     }
 
-    public Usuario(String dniUsuario, LocalDate fechaAltaSancion) {
+    public Usuario(String dniUsuario, LocalDate fechaAltaSancion, boolean sancionado) {
         this.dniUsuario = dniUsuario;
         this.fechaAltaSancion = fechaAltaSancion;
+        this.sancionado = sancionado;
 
     }
 

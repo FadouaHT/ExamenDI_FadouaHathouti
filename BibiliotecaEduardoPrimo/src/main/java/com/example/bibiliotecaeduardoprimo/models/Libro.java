@@ -30,6 +30,15 @@ public class Libro {
         this.fechaEdicion = fechaEdicion;
     }
 
+    public Libro(int idLibro, String titulo, String isbn, String autor, Tematica tematica, LocalDate fechaEdicion) {
+        this.idLibro = idLibro;
+        this.titulo = titulo;
+        this.isbn = isbn;
+        this.autor = autor;
+        this.tematica = tematica;
+        this.fechaEdicion = fechaEdicion;
+    }
+
     public int getIdLibro() {
         return idLibro;
     }
